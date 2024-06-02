@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.ul1{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.ul1 li{
+    padding: 10px 25px;
+}
+.icon div{
+    width: 20px;
+    height: 3px;
+    background-color: wheat;
+    margin-top: 3px;
+}
+.icon{
+    display: none;
+}
+@media only screen and (max-width:683px){
+ .icon{
+    display: block;
+ }
+ .ul1{
+    display: none;
+    position: absolute;
+    top:30px;
+    right: 3px;
+ }
+}
+.show{
+    display: block;
+}

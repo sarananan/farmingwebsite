@@ -1,0 +1,38 @@
+#form1{
+    background:linear-gradient(red,blue);
+    width: 30%;
+    margin: auto;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px;
+    margin: auto;
+    text-align: center;
+}
+form input{
+    padding: 6px 3px;
+    outline: none;
+    width: 90%;
+    border: 1px solid blue;
+}
+form label{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: start;
+    padding: 10px;
+
+}
+.err{
+    text-align: start;
+    padding-left: 20px;
+    color:red;
+}
+input.remove{
+    border:4px solid rgb(236, 0, 0);
+}
+input.succes{
+    border: 4px solid green;
+}
